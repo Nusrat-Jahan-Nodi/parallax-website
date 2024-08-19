@@ -20,6 +20,7 @@ html, body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .p-img2{
     background-image: url(images/image2.png);
@@ -39,8 +40,20 @@ html, body{
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-.text-bg{
+.text-bg1, .text-bg2, .text-bg3{
     background: #313534;
     color: white;
     padding: 20px;
+}
+.section-one{
+    padding: 50px 300px;
+    text-align: center;
+    background-color: white;
+    color: gray;
+}
+.section-two, .section-three{
+    padding: 50px 300px;
+    text-align: center;
+    background-color: #313534;
+    color: white;
 }
